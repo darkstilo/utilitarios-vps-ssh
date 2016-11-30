@@ -5,7 +5,7 @@ Proxy ( Squid Completo )
 ```
 acl url1 dstdomain -i 127.0.0.1
 acl url2 dstdomain -i localhost
-acl url3 dstdomain -i 94.177.172.121
+acl url3 dstdomain -i DIGITE AQUI O IP DA SUA VPS
 
 acl payload dstdomain -i "/etc/squid3/payload.txt"
 acl bloq url_regex -i "/etc/squid3/bloq"

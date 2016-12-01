@@ -3,6 +3,11 @@ Repositório indicado apenas configurações (SSH and Proxy) e utilitários.
 
 # Utilitários
 
+> Importante: Antes de adicionar os scripts abaixo, digite o seguinte comando:
+```
+awk -F : '$3 >= 500 { print $1 " 1" }' /etc/passwd | grep -v '^nobody' > /root/usuarios.db
+```
+
 **Adicionar host**
 ```
 http://pastebin.com/raw/zAtfDqie

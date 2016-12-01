@@ -76,10 +76,13 @@ addhost
 >Troque o link do pastebin acima, para o do script que você deseja.
 
 # Proxy ( Squid Completo )
+
 ```
 nano /etc/squid3/squid.conf
 ```
+
 ```
+#IMPEDIR USAR SEU PROXY EM OUTRAS SSH
 acl url1 dstdomain -i 127.0.0.1
 acl url2 dstdomain -i localhost
 acl url3 dstdomain -i DIGITE AQUI O IP DA SUA VPS
@@ -90,16 +93,20 @@ acl telegram src telegram.me
 acl netflix dstdomain .netflix.
 acl torrent url_regex ?i \.torrent$
 
+#PERMISSÃO DE ACESSO LIBERADOS
+
 http_access allow url1
 http_access allow url2
 http_access allow url3
 http_access allow netflix
 http_access allow payload
 
+#PERMISSÃO DE ACESSO BLOQUEADOS
 http_access deny all
 http_access deny bloq
 http_access deny torrent
 
+#PORTAS DE ACESSO NO SQUID
 http_port 80
 http_port 3128
 http_port 8080

@@ -163,14 +163,14 @@ via off
 ```
 nano /etc/squid3/payload.txt
 ```
+
 > Para baixar o arquivo payload para sua vps, execute o seguinte comando
 ```
 wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/payload.txt
-
 ou
-
 wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid/payload.txt
 ```
+
 ```
 .claro.com.br
 .claro.com.sv

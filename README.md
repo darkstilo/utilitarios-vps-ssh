@@ -117,7 +117,7 @@ addhost
 | Sistema Operacional | Comando |
 | :---:         |          :---: |
 | Debian 7, 8, Ubuntu 14   | wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/squid.conf    |
-| Ubuntu Server 16.04 64bit    | wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid/squid.conf      |
+| Ubuntu Server 16.04 64bit    | wget http://pastebin.com/raw/eC3DYsg0 -O /etc/squid/squid.conf      |
 
 ```
 #IMPEDIR USAR PROXY EM OUTRAS SSH

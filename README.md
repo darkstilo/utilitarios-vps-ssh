@@ -1,7 +1,10 @@
 # utilitarios-vps-ssh
-Repositório indicado apenas configurações (SSH and Proxy) e utilitários. 
+Repositório indicado apenas configurações (SSH and Proxy) e utilitários.
 
 Proxy ( Squid Completo )
+```
+nano /etc/squid3/squid.conf
+```
 ```
 acl url1 dstdomain -i 127.0.0.1
 acl url2 dstdomain -i localhost

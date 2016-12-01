@@ -115,6 +115,7 @@ nano /etc/squid/squid.conf
 ```
 
 > Para baixar o arquivo squid.conf para sua vps, execute o seguinte comando
+
 ```
 wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/squid.conf
 ou

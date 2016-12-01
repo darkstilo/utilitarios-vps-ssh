@@ -35,6 +35,8 @@ chmod +x /bin/criarusuario
 wget http://pastebin.com/raw/4kTeb5cE -O /bin/delhost
 
 chmod +x /bin/delhost
+
+Digite o comando: "delhost" sem as aspas
 ```
 
 **Limpar Expirados**
@@ -64,11 +66,13 @@ wget http://pastebin.com/raw/Fux54hxi -O /bin/sshlimiter
 
 chmod +x /bin/sshlimiter
 
-screen
+Digite o comando: "screen" sem as aspas
 
-enter
+Dê um enter
 
-sshlimiter
+Digite o comando: "sshlimiter" sem as aspas
+
+Minimize a screen com o comando: ctrl a + d
 ```
 
 **Alterar Limite Conexões simultanea Usuario Especifico**

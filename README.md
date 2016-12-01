@@ -185,3 +185,13 @@ Para Ubuntu 16 execute: wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid/payl
 .cloudfront.net
 .d1n212ccp6ldpw.cloudfront.net
 ```
+
+# Bloquear Torrent na Rede
+
+
+> Para baixar o arquivo bloq para sua vps, execute o seguinte comando
+
+| Sistema Operacional | Comando |
+| :---:         |          :---: |
+| Debian 7, 8, Ubuntu 14   | wget http://pastebin.com/raw/nvvh0RDy -O /etc/squid3/bloq    |
+| Ubuntu Server 16.04 64bit    | wget http://pastebin.com/raw/nvvh0RDy -O /etc/squid/bloq      |

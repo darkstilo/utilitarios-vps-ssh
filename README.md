@@ -104,7 +104,7 @@ addhost
 
 >Em "pastebin... coloque o link do script que vocÊ deseja, e /bin/nom
 
-# Proxy ( Squid Completo )
+# Proxy Baseado no squid
 
 
 | Sistema Operacional | Comando |

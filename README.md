@@ -10,61 +10,79 @@ awk -F : '$3 >= 500 { print $1 " 1" }' /etc/passwd | grep -v '^nobody' > /root/u
 
 **Adicionar host**
 ```
-http://pastebin.com/raw/zAtfDqie
+wget http://pastebin.com/raw/zAtfDqie -O /bin/addhost
+
+chmod +x /bin/addhost
+
 ```
 
 **Alterar senha de um Usuario**
 ```
-http://pastebin.com/raw/zAtfDqie
+wget http://pastebin.com/raw/i8Fve3PT -O /bin/alterarsenha
+
+chmod +x /bin/alterarsenha
 ```
 
 **Criar Usuario SSH**
 ```
-http://pastebin.com/raw/zAtfDqie
+wget http://pastebin.com/raw/X1j2zRDW -O /bin/criarusuario
+
+chmod +x /bin/criarusuario
 ```
 
 **Deletar Host**
 ```
-http://pastebin.com/raw/zAtfDqie
+wget http://pastebin.com/raw/4kTeb5cE -O /bin/delhost
+
+chmod +x /bin/delhost
 ```
 
 **Limpar Expirados**
 ```
-http://pastebin.com/raw/zAtfDqie
+wget http://pastebin.com/raw/Lrr11kiS -O /bin/expcleaner
+
+chmod +x /bin/expcleaner
 ```
 
 **Mudar Data de Expiração de um Usuario**
 ```
-http://pastebin.com/raw/zAtfDqie
+wget http://pastebin.com/raw/zAtfDqie -O /bin/mudardata
+
+chmod +x /bin/mudardata
 ```
 
 **Remover Usuario**
 ```
-http://pastebin.com/raw/zAtfDqie
+wget http://pastebin.com/raw/zAtfDqie -O /bin/remover
+
+chmod +x /bin/remover
 ```
 
 **Limitar Conexão Simultanea**
 ```
-http://pastebin.com/raw/zAtfDqie
+wget http://pastebin.com/raw/Fux54hxi -O /bin/sshlimiter
+
+chmod +x /bin/sshlimiter
+
+screen
+
+enter
+
+sshlimiter
 ```
 
 **Alterar Limite Conexões simultanea Usuario Especifico**
 ```
-http://pastebin.com/raw/zAtfDqie
+wget http://pastebin.com/raw/swAeTx8R -O /bin/alterarlimite
+
+chmod +x /bin/alterarlimite
 ```
 
 **SSH Monitor**
 ```
-http://pastebin.com/raw/zAtfDqie
-```
-**EXEMPLO DE INSTALAÇÃO**
+wget http://pastebin.com/raw/ZxYTkGkN -O /bin/sshmonitor
 
-```
-wget http://pastebin.com/raw/zAtfDqie -O /bin/addhost
-```
-
-```
-chmod +x /bin/addhost
+chmod +x /bin/sshmonitor
 ```
 
 **Logo em seguida para executar o script, digite o nome do mesmo, ex:**
@@ -73,7 +91,7 @@ chmod +x /bin/addhost
 addhost
 ```
 
->Troque o link do pastebin acima, para o do script que você deseja.
+>Em "pastebin... coloque o link do script que vocÊ deseja, e /bin/nom
 
 # Proxy ( Squid Completo )
 

@@ -110,8 +110,16 @@ addhost
 
 ```
 nano /etc/squid3/squid.conf
+ou
+nano /etc/squid/squid.conf
 ```
 
+> Para baixar o arquivo squid.conf para sua vps, execute o seguinte comando
+```
+wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/squid.conf
+ou
+wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid/squid.conf
+```
 ```
 #IMPEDIR USAR PROXY EM OUTRAS SSH
 acl url1 dstdomain -i 127.0.0.1
@@ -155,7 +163,14 @@ via off
 ```
 nano /etc/squid3/payload.txt
 ```
+> Para baixar o arquivo payload para sua vps, execute o seguinte comando
+```
+wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/payload.txt
 
+ou
+
+wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid/payload.txt
+```
 ```
 .claro.com.br
 .claro.com.sv

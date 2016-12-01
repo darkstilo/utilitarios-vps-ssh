@@ -167,9 +167,9 @@ nano /etc/squid3/payload.txt
 
 > Para baixar o arquivo payload para sua vps, execute o seguinte comando
 ```
-wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/payload.txt
+wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid3/payload.txt
 ou
-wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid/payload.txt
+wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid/payload.txt
 ```
 
 ```

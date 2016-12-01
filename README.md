@@ -140,3 +140,23 @@ visible_hostname vpsmanager
 forwarded_for off
 via off
 ```
+
+# Arquivo Payload.txt
+
+```
+nano /etc/squid3/payload.txt
+```
+
+```
+.claro.com.br
+.claro.com.sv
+.facebook.net
+.netclaro.com.br
+.speedtest.net
+.tim.com.br
+.vivo.com.br
+.oi.com.br
+.cloudfront.net
+.d1n212ccp6ldpw.cloudfront.net
+```
+```

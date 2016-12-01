@@ -4,10 +4,10 @@ Repositório indicado apenas configurações (SSH and Proxy) e utilitários.
 **Update 1/Dezembro/2016:** Scripts e arquivos necessários.
 
 # OS Distri Linux Recomendados para Uso de SSH and Proxy
-Debian 7 64bit
+Debian 7 64bit | 
 Debian 8 64bit
 
-Ubuntu Server 14.04 LTS 64bit
+Ubuntu Server 14.04 LTS 64bit | 
 Ubuntu Server 16.04 LTS 64bit
 
 # Scripts Úteis

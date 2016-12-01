@@ -1,6 +1,8 @@
 # utilitarios-vps-ssh
 Repositório indicado apenas configurações (SSH and Proxy) e utilitários.
 
+**Update 1/Dezembro/2016:** Scripts e arquivos necessários.
+
 # Scripts Úteis
 
 > Importante: Antes de adicionar os scripts abaixo, digite o seguinte comando:

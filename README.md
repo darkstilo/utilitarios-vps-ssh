@@ -1,7 +1,15 @@
 # utilitarios-vps-ssh
 Repositório indicado apenas configurações (SSH and Proxy) e utilitários.
 
-Proxy ( Squid Completo )
+**#Utilitários**
+
+Adicionar host
+```
+http://pastebin.com/raw/zAtfDqie
+```
+
+
+**#Proxy ( Squid Completo )**
 ```
 nano /etc/squid3/squid.conf
 ```

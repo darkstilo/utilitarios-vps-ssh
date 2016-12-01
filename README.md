@@ -8,6 +8,11 @@ Debian 8 64bit
 Ubuntu Server 14.04 LTS 64bit | 
 Ubuntu Server 16.04 LTS 64bit
 
+| Left-aligned | Right-aligned |
+| :---         |          ---: |
+| git status   | git status    |
+| git diff     | git diff      |
+
 # Scripts Úteis
 
 > Importante: Antes de adicionar os scripts abaixo, digite o seguinte comando:

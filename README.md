@@ -82,11 +82,12 @@ nano /etc/squid3/squid.conf
 ```
 
 ```
-#IMPEDIR USAR SEU PROXY EM OUTRAS SSH
+#IMPEDIR USAR PROXY EM OUTRAS SSH
 acl url1 dstdomain -i 127.0.0.1
 acl url2 dstdomain -i localhost
 acl url3 dstdomain -i DIGITE AQUI O IP DA SUA VPS
 
+#ACESSOS ACLS
 acl payload dstdomain -i "/etc/squid3/payload.txt"
 acl bloq url_regex -i "/etc/squid3/bloq"
 acl telegram src telegram.me
@@ -94,7 +95,6 @@ acl netflix dstdomain .netflix.
 acl torrent url_regex ?i \.torrent$
 
 #PERMISSÃO DE ACESSO LIBERADOS
-
 http_access allow url1
 http_access allow url2
 http_access allow url3
@@ -112,6 +112,7 @@ http_port 3128
 http_port 8080
 http_port 8799
 
+#NOME DO SERVIDOR
 visible_hostname vpsmanager
 
 forwarded_for off

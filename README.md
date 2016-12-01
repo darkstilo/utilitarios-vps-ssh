@@ -106,11 +106,6 @@ addhost
 
 # Proxy ( Squid Completo )
 
-```
-nano /etc/squid3/squid.conf
-ou
-Para Ubuntu 16 execute: nano /etc/squid/squid.conf
-```
 
 | Sistema Operacional | Comando |
 | :---:         |          :---: |
@@ -119,11 +114,11 @@ Para Ubuntu 16 execute: nano /etc/squid/squid.conf
 
 > Para baixar o arquivo squid.conf para sua vps, execute o seguinte comando
 
-```
-wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/squid.conf
-ou
-Para Ubuntu 16 execute: wget http://pastebin.com/raw/eC3DYsg0 -O /etc/squid/squid.conf
-```
+| Sistema Operacional | Comando |
+| :---:         |          :---: |
+| Debian 7, 8, Ubuntu 14   | wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/squid.conf    |
+| Ubuntu Server 16.04 64bit    | wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid/squid.conf      |
+
 ```
 #IMPEDIR USAR PROXY EM OUTRAS SSH
 acl url1 dstdomain -i 127.0.0.1

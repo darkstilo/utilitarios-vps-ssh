@@ -166,6 +166,7 @@ Para Ubuntu 16 execute: nano /etc/squid/payload.txt
 ```
 
 > Para baixar o arquivo payload para sua vps, execute o seguinte comando
+
 ```
 wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid3/payload.txt
 ou

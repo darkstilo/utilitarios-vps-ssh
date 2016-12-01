@@ -119,38 +119,25 @@ addhost
 | Debian 7, 8, Ubuntu 14   | wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/squid.conf    |
 | Ubuntu Server 16.04 64bit    | wget http://pastebin.com/raw/eC3DYsg0 -O /etc/squid/squid.conf      |
 
+
 # Arquivo Payload.txt
 
-```
-nano /etc/squid3/payload.txt
-ou
-Para Ubuntu 16 execute: nano /etc/squid/payload.txt
-```
+| Sistema Operacional | Comando |
+| :---:         |          :---: |
+| Debian 7, 8, Ubuntu 14   | nano /etc/squid3/payload.txt    |
+| Ubuntu Server 16.04 64bit    | nano /etc/squid/payload.txt      |
 
-> Para baixar o arquivo payload para sua vps, execute o seguinte comando
+> Para baixar o arquivo squid.conf na sua vps, execute o seguinte comando
 
-```
-wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid3/payload.txt
-ou
-Para Ubuntu 16 execute: wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid/payload.txt
-```
+| Sistema Operacional | Comando |
+| :---:         |          :---: |
+| Debian 7, 8, Ubuntu 14   | wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid3/payload.txt    |
+| Ubuntu Server 16.04 64bit    | wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid/payload.txt      |
 
-```
-.claro.com.br
-.claro.com.sv
-.facebook.net
-.netclaro.com.br
-.speedtest.net
-.tim.com.br
-.vivo.com.br
-.oi.com.br
-.cloudfront.net
-.d1n212ccp6ldpw.cloudfront.net
-```
 
 # Bloquear Torrent na Rede
 
-> Vou logo avisando que bloquear torrent não é uma tarefa tão simples, já que essa forma de download usa-se várias portas distintas, ou seja, você nunca irá advinhra qual a porta a pessoa poderá utilizar, no entanto, há como deixar isso mais dificil para usuários padrões que tentar baixa-los da forma normal.
+> Vou logo avisando que bloquear torrent não é uma tarefa tão simples, já que essa forma de download usa-se várias portas distintas, ou seja, você nunca irá advinhra qual a porta a pessoa poderá utilizar, no entanto, há como deixar isso mais dificil para usuários que tentarem baixa-los da forma normal.
 
 > Para isso baixe o seguinte arquivo bloq na sua vps, execute o seguinte comando
 

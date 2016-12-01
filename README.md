@@ -119,7 +119,7 @@ nano /etc/squid/squid.conf
 ```
 wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/squid.conf
 ou
-wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid/squid.conf
+Para Ubuntu 16 digite: wget http://pastebin.com/raw/eC3DYsg0 -O /etc/squid/squid.conf
 ```
 ```
 #IMPEDIR USAR PROXY EM OUTRAS SSH

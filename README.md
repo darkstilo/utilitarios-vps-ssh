@@ -1,8 +1,6 @@
 # utilitarios-vps-ssh
 Repositório indicado apenas configurações (SSH and Proxy) e utilitários.
 
-**Update 1/Dezembro/2016:** Scripts e arquivos necessários.
-
 # OS Distri Linux Recomendados para Uso de SSH and Proxy
 Debian 7 64bit | 
 Debian 8 64bit
@@ -111,7 +109,7 @@ addhost
 ```
 nano /etc/squid3/squid.conf
 ou
-nano /etc/squid/squid.conf
+Para Ubuntu 16 execute: nano /etc/squid/squid.conf
 ```
 
 > Para baixar o arquivo squid.conf para sua vps, execute o seguinte comando
@@ -119,7 +117,7 @@ nano /etc/squid/squid.conf
 ```
 wget http://pastebin.com/raw/mBRLzZhG -O /etc/squid3/squid.conf
 ou
-Para Ubuntu 16 digite: wget http://pastebin.com/raw/eC3DYsg0 -O /etc/squid/squid.conf
+Para Ubuntu 16 execute: wget http://pastebin.com/raw/eC3DYsg0 -O /etc/squid/squid.conf
 ```
 ```
 #IMPEDIR USAR PROXY EM OUTRAS SSH
@@ -163,13 +161,15 @@ via off
 
 ```
 nano /etc/squid3/payload.txt
+ou
+Para Ubuntu 16 execute: nano /etc/squid/payload.txt
 ```
 
 > Para baixar o arquivo payload para sua vps, execute o seguinte comando
 ```
 wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid3/payload.txt
 ou
-wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid/payload.txt
+Para Ubuntu 16 execute: wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid/payload.txt
 ```
 
 ```

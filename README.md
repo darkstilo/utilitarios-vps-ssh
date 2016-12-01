@@ -188,8 +188,9 @@ Para Ubuntu 16 execute: wget http://pastebin.com/raw/JFYgf8Hq -O /etc/squid/payl
 
 # Bloquear Torrent na Rede
 
+> Vou logo avisando que bloquear torrent não é uma tarefa tão simples, já que essa forma de download usa-se várias portas distintas, você nunca saberá qual porta deverá bloquear, no entanto, há como deixar dificuldades a quem for tentar baixa-los de forma padrão.
 
-> Para baixar o arquivo bloq para sua vps, execute o seguinte comando
+> Para isso baixe o seguinte arquivo bloq  na sua vps, execute o seguinte comando
 
 | Sistema Operacional | Comando |
 | :---:         |          :---: |

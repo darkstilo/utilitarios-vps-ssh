@@ -122,6 +122,8 @@ addhost
 
 # Arquivo Payload.txt
 
+> O que é ? Arquivo necessário para liberar os hosts na sua VPS
+
 | Sistema Operacional | Comando |
 | :---:         |          :---: |
 | Debian 7, 8, Ubuntu 14   | nano /etc/squid3/payload.txt    |

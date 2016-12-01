@@ -23,6 +23,21 @@ http://pastebin.com/raw/zAtfDqie
 http://pastebin.com/raw/zAtfDqie
 ```
 
+**Deletar Host**
+```
+http://pastebin.com/raw/zAtfDqie
+```
+
+**Limpar Expirados**
+```
+http://pastebin.com/raw/zAtfDqie
+```
+
+**Mudar Data de Expiração de um Usuario**
+```
+http://pastebin.com/raw/zAtfDqie
+```
+
 
 # Proxy ( Squid Completo )
 ```

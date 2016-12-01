@@ -112,6 +112,11 @@ ou
 Para Ubuntu 16 execute: nano /etc/squid/squid.conf
 ```
 
+| Sistema Operacional | Comando |
+| :---         |          ---: |
+| Debian 7, 8, Ubuntu 14   | nano /etc/squid3/squid.conf    |
+| Ubuntu Server 16.04 64bit    | nano /etc/squid/squid.conf      |
+
 > Para baixar o arquivo squid.conf para sua vps, execute o seguinte comando
 
 ```

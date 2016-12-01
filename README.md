@@ -122,7 +122,7 @@ addhost
 
 # Arquivo Payload.txt
 
-> O que é ? Arquivo necessário para liberar os hosts na sua VPS
+> O que esse arquivo faz? Responsável por liberar as hosts em seu servidor proxy.
 
 | Sistema Operacional | Comando |
 | :---:         |          :---: |

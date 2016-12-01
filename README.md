@@ -62,11 +62,16 @@ http://pastebin.com/raw/zAtfDqie
 ```
 wget http://pastebin.com/raw/zAtfDqie -O /bin/addhost
 ```
-```chmod +x /bin/addhost```
+
+```
+chmod +x /bin/addhost
+```
 
 **Logo em seguida para executar o script, digite o nome do mesmo, ex:**
 
-```addhost```
+```
+addhost
+```
 
 >Troque o link do pastebin acima, para o do script que você deseja.
 

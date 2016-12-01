@@ -1,7 +1,7 @@
 # utilitarios-vps-ssh
 Repositório indicado apenas configurações (SSH and Proxy) e utilitários.
 
-# Utilitários
+# Scripts Úteis
 
 > Importante: Antes de adicionar os scripts abaixo, digite o seguinte comando:
 ```
@@ -34,6 +34,26 @@ http://pastebin.com/raw/zAtfDqie
 ```
 
 **Mudar Data de Expiração de um Usuario**
+```
+http://pastebin.com/raw/zAtfDqie
+```
+
+**Remover Usuario**
+```
+http://pastebin.com/raw/zAtfDqie
+```
+
+**Limitar Conexão Simultanea**
+```
+http://pastebin.com/raw/zAtfDqie
+```
+
+**Alterar Limite Conexões simultanea Usuario Especifico**
+```
+http://pastebin.com/raw/zAtfDqie
+```
+
+**SSH Monitor**
 ```
 http://pastebin.com/raw/zAtfDqie
 ```

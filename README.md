@@ -10,7 +10,7 @@ Repositório indicado apenas configurações (SSH and Proxy) e utilitários.
 
 # Scripts Úteis
 
-> Importante: Antes de adicionar os scripts abaixo, digite o seguinte comando:
+> Importante: Antes de adicionar os `scripts` abaixo, digite o seguinte comando:
 ```
 awk -F : '$3 >= 500 { print $1 " 1" }' /etc/passwd | grep -v '^nobody' > /root/usuarios.db
 ```
@@ -104,7 +104,7 @@ addhost
 
 >Em "pastebin... coloque o link do script que vocÊ deseja, e /bin/nom
 
-# Proxy Baseado no squid
+# Proxy Baseado no `squid`
 
 
 | Sistema Operacional | Comando |
@@ -112,7 +112,7 @@ addhost
 | Debian 7, 8, Ubuntu 14   | nano /etc/squid3/squid.conf    |
 | Ubuntu Server 16.04 64bit    | nano /etc/squid/squid.conf      |
 
-> Para baixar o arquivo squid.conf para sua vps, execute o seguinte comando
+> Para baixar o arquivo `squid.conf` para sua vps, execute o seguinte comando
 
 | Sistema Operacional | Comando |
 | :---:         |          :---: |
@@ -129,7 +129,7 @@ addhost
 | Debian 7, 8, Ubuntu 14   | nano /etc/squid3/payload.txt    |
 | Ubuntu Server 16.04 64bit    | nano /etc/squid/payload.txt      |
 
-> Para baixar o arquivo squid.conf na sua vps, execute o seguinte comando
+> Para baixar o arquivo `payload.txt` na sua vps, execute o seguinte comando
 
 | Sistema Operacional | Comando |
 | :---:         |          :---: |

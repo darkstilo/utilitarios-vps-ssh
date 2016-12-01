@@ -159,4 +159,3 @@ nano /etc/squid3/payload.txt
 .cloudfront.net
 .d1n212ccp6ldpw.cloudfront.net
 ```
-```
